@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/prettyref
+# catalog-date 2008-11-06 09:26:54 +0100
+# catalog-license pd
+# catalog-version 3.0
 Name:		texlive-prettyref
 Version:	3.0
 Release:	1
@@ -48,6 +54,7 @@ with hyperref and with other packages.
 #- source
 %doc %{_texmfdistdir}/source/latex/prettyref/prettyref.dtx
 %doc %{_texmfdistdir}/source/latex/prettyref/prettyref.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ with hyperref and with other packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
