@@ -6,7 +6,7 @@
 # catalog-version 3.0
 Name:		texlive-prettyref
 Version:	3.0
-Release:	3
+Release:	4
 Summary:	Make label references "self-identify"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/prettyref
