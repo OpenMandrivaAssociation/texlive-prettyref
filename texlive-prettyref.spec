@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Make label references "self-identify"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/prettyref
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/prettyref
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/prettyref.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/prettyref.doc.r%{version}.tar.xz
